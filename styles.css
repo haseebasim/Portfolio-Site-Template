@@ -14,6 +14,7 @@ html {
 
 .toggler-btn {
   background-color: black;
+  display: none;
 }
 
 .fa-bars {
@@ -454,6 +455,27 @@ textarea {
     top: 200px;
   }
 
+  .nav-container {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+
+  .toggler-btn {
+    display: block;
+  }
+
+  .navbar-container-close {
+    display: none;
+    position: absolute;
+    top: -200px;
+    transition: all 0.5s linear;
+  }
+
+  .navbar-container {
+    padding-left: 25px;
+    transition: all 0.5s linear;
+  }
+
   .home-buttons-container {
     top: 250px;
     left: 80px;
@@ -478,6 +500,10 @@ textarea {
   .nav-container {
     display: grid !important;
     grid-template-columns: auto auto !important;
+  }
+
+  .toggler-btn {
+    display: block;
   }
 
   .navbar-container-close {
